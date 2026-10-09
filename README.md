@@ -1,4 +1,4 @@
-# 📊 Telecom Customer Churn Analysis & Prediction
+# 📊 Análise de dados sobre cancelamento de clientes de Telecomunicações
 
 Projeto prático desenvolvido para o curso de **Data Science da Coderhouse**, com foco em análise exploratória de dados (EDA), teste de hipóteses de negócio e modelagem preditiva de evasão de clientes (*churn*) no setor de telecomunicações.
 
