@@ -1,10 +1,10 @@
-# 📊 Análise de dados sobre cancelamento de clientes de Telecomunicações
+# Análise de dados sobre cancelamento de clientes de Telecomunicações
 
 Projeto prático desenvolvido para o curso de **Data Science da Coderhouse**, com foco em análise exploratória de dados (EDA), teste de hipóteses de negócio e modelagem preditiva de evasão de clientes (*churn*) no setor de telecomunicações.
 
 ---
 
-## 📌 Visão Geral do Projeto
+## Visão Geral do Projeto
 
 O cancelamento de serviços (*churn*) é um dos maiores desafios de retenção em empresas de telecomunicações. Este projeto investiga uma base de **7.032 clientes** contendo dados cadastrais, contratuais, financeiros, de uso de serviços e dados de experiência do cliente obtidos via Processamento de Linguagem Natural (NLP), como polaridade de sentimento e tamanho de feedback.
 
@@ -12,7 +12,7 @@ O pipeline abrange desde o entendimento dos dados e validação estatística de 
 
 ---
 
-## 🎯 Hipóteses Analisadas & Principais Descobertas
+## Hipóteses Analisadas & Principais Descobertas
 
 | # | Hipótese | Validação | Conclusão |
 |---|---|---|---|
@@ -24,7 +24,7 @@ Além disso, a análise de sentimento revelou forte correlação entre polaridad
 
 ---
 
-## 🛠️ Tecnologias e Bibliotecas Utilizadas
+## Tecnologias e Bibliotecas Utilizadas
 
 - **Linguagem:** Python
 - **Manipulação de Dados:** `pandas`, `numpy`
@@ -38,7 +38,7 @@ Além disso, a análise de sentimento revelou forte correlação entre polaridad
 
 ---
 
-## 🔬 Metodologia e Pipeline
+## Metodologia e Pipeline
 
 1. **Ingestão e Limpeza dos Dados:**
    - Carga do dataset via `kagglehub` (`beatafaron/telco-customer-churn-realistic-customer-feedback`).
@@ -61,7 +61,7 @@ Além disso, a análise de sentimento revelou forte correlação entre polaridad
 
 ---
 
-## 📈 Resultados do Modelo
+## Resultados do Modelo
 
 O modelo treinado alcançou excelente poder preditivo no conjunto de testes ($N = 2.110$ clientes):
 
@@ -87,7 +87,7 @@ Real: Sim            83             475
 
 ---
 
-## 💡 Insights e Ações Recomendadas para o Negócio
+## Insights e Ações Recomendadas para o Negócio
 
 1. **Incentivo a Contratos Longos:** Desenvolver descontos progressivos e benefícios para migrar clientes de contratos mensais para anuais/bienais (redução potencial drástica do churn).
 2. **Onboarding nos Primeiros 12 Meses:** O primeiro ano concentra o maior volume de evasão (mediana de 10 meses). Ações de boas-vindas, suporte prioritário e acompanhamento reduzem a perda inicial.
@@ -95,7 +95,7 @@ Real: Sim            83             475
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 Certifique-se de ter o Python 3.9+ instalado em sua máquina.
